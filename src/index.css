@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@theme {
+  --color-blue: #0079ff;
+  --color-slate: #697c9a;
+  --color-grayish-blue: #4b6a9b;
+  --color-charcoal: #2b3442;
+  --color-white: #ffffff;
+  --color-navy: #1e2a47;
+  --color-dark-navy: #141d2f;
+  --color-very-light-gray: #f6f8ff;
+  --color-almost-white: #fefefe;
+  --font-space-mono: "Space Mono", sans-serif;
+  --breakpoint-xs: 425px;
+}
+
+@import "tailwindcss";
+
+body {
+  background-color: #f6f8ff;
+}
