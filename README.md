@@ -136,10 +136,20 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Sadaf – Frontend Developer**
+**Mohd Sadaf**
+Frontend Developer
+
+* [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/MsadafK)
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-sadaf/)
 
 ---
 
-## ⭐ Support
+## ⭐ If you like this project
 
-If you like this project, give it a ⭐ on GitHub!
+Give it a ⭐ on GitHub — it helps a lot!
+
+---
+
+## 📬 Feedback
+
+If you have suggestions or improvements, feel free to open an issue or connect!
