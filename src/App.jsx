@@ -10,7 +10,7 @@ const App = () => {
   const bgColor = theme === "light" ? "bg-very-light-gray" : "bg-dark-navy";
 
   return (
-    <div className={`${bgColor} min-h-screen flex items-center justify-center`}>
+    <div className={`${bgColor} min-h-screen flex  items-center justify-center`}>
       <DevFinder>
         <Header />
         <Main />
