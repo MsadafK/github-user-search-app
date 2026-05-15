@@ -1,6 +1,8 @@
-# DevFinder - GitHub Profile Intelligence
+# DevFinder - GitHub Profile Review Desk
 
-A portfolio-grade GitHub profile search app built with React, Vite, and Tailwind CSS. Search any GitHub username and inspect their public profile, repository signal, social links, profile completeness, and recent lookup history in a polished responsive interface.
+DevFinder is a portfolio-ready GitHub profile search app built with React, Vite, and Tailwind CSS. It turns any public GitHub username into a clean profile dossier with identity details, account signals, repository evidence, language mix, useful links, recent searches, and light/dark mode.
+
+![DevFinder preview](./public/devfinder-preview.png)
 
 ## Live Demo
 
@@ -8,14 +10,15 @@ https://msadafk.github.io/github-user-search-app/
 
 ## Highlights
 
-- Search GitHub users through the GitHub REST API
-- Fetch profile details and recent public repositories
-- Featured repository cards sorted by stars
-- Profile completeness indicator based on public signals
-- Recent search history persisted in local storage
-- Light and dark theme with persisted preference
-- Loading skeleton, API error handling, and request-limit hint
-- Responsive dashboard layout for mobile, tablet, and desktop
+- Search any public GitHub username using the GitHub REST API
+- Review a profile in a dossier-style layout instead of a basic card UI
+- View account notes such as account age, public gists, and sampled repos
+- See profile score based on bio, location, website, company, and social data
+- Explore language mix from recent public repositories
+- Inspect notable repositories sorted by stars with forks and update dates
+- Use recent search history saved in local storage
+- Switch between responsive light and dark themes with saved preference
+- Works cleanly across mobile, tablet, and desktop screen sizes
 
 ## Tech Stack
 
@@ -23,6 +26,7 @@ https://msadafk.github.io/github-user-search-app/
 - Vite
 - Tailwind CSS 4
 - GitHub REST API
+- Local Storage
 
 ## API Endpoints
 
@@ -51,11 +55,12 @@ npm run preview
 
 ## What This Project Demonstrates
 
-- Real API integration with async state management
-- Component-driven React architecture
-- Responsive UI design with practical product states
-- Local storage for user preferences and search history
-- Accessible form controls, external links, and loading feedback
+- Fetching and combining real API data from multiple endpoints
+- Managing loading, error, success, theme, and search-history states
+- Building a responsive React interface that adapts down to small phones
+- Designing a restrained portfolio UI that feels hand-crafted, not template-like
+- Persisting user preferences with local storage
+- Presenting data through reusable components and accessible controls
 
 ## Author
 
