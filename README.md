@@ -6,7 +6,7 @@ DevFinder is a portfolio-ready GitHub profile search app built with React, Vite,
 
 ## Live Demo
 
-https://msadafk.github.io/github-user-search-app/
+https://msadafk.github.io/devfinder/
 
 ## Highlights
 
@@ -38,8 +38,8 @@ https://api.github.com/users/{username}/repos?sort=updated&per_page=8
 ## Getting Started
 
 ```bash
-git clone https://github.com/MsadafK/github-user-search-app.git
-cd github-user-search-app
+git clone https://github.com/MsadafK/devfinder.git
+cd devfinder
 npm install
 npm run dev
 ```
