@@ -1,155 +1,66 @@
-# 🔍 GitHub User Search App (DevFinder)
+# DevFinder - GitHub Profile Intelligence
 
-A modern and responsive **GitHub user search application** built using **React + Vite**.
-Search any GitHub username and instantly view profile details in a clean UI.
+A portfolio-grade GitHub profile search app built with React, Vite, and Tailwind CSS. Search any GitHub username and inspect their public profile, repository signal, social links, profile completeness, and recent lookup history in a polished responsive interface.
 
----
+## Live Demo
 
-## 🚀 Live Demo
+https://msadafk.github.io/github-user-search-app/
 
-👉 https://msadafk.github.io/github-user-search-app/
+## Highlights
 
----
+- Search GitHub users through the GitHub REST API
+- Fetch profile details and recent public repositories
+- Featured repository cards sorted by stars
+- Profile completeness indicator based on public signals
+- Recent search history persisted in local storage
+- Light and dark theme with persisted preference
+- Loading skeleton, API error handling, and request-limit hint
+- Responsive dashboard layout for mobile, tablet, and desktop
 
-## 📂 GitHub Repository
+## Tech Stack
 
-👉 https://github.com/MsadafK/github-user-search-app
+- React 19
+- Vite
+- Tailwind CSS 4
+- GitHub REST API
 
----
+## API Endpoints
 
-## 🖼️ Screens Preview
-
-### 🌙 Dark Mode
-
-![Dark Mode](./public/dark-mode.png)
-
----
-
-### ☀️ Light Mode
-
-![Light Mode](./public/light-mode.png)
-
----
-
-## 📌 Overview
-
-This project is a **GitHub user finder tool** that fetches real-time data from the **GitHub API** and displays it in a structured format.
-
-It focuses on:
-
-* Clean UI/UX
-* API integration
-* State management
-* Theme switching
-
----
-
-## ✨ Features
-
-* 🔍 Search GitHub users by username
-* 🌙 Light / Dark mode toggle
-* 📊 Display user details:
-
-  * Avatar
-  * Name & username
-  * Bio
-  * Repositories
-  * Followers / Following
-  * Location, website, company
-* ⚠️ Handles "User not found" errors
-* 📱 Fully responsive design
-
----
-
-## 🛠️ Tech Stack
-
-* React 19
-* Vite
-* CSS
-* GitHub REST API
-
----
-
-## 🔗 API Used
-
-```id="2f9xpa"
+```txt
 https://api.github.com/users/{username}
+https://api.github.com/users/{username}/repos?sort=updated&per_page=8
 ```
 
----
+## Getting Started
 
-## 📂 Project Structure
-
-```id="7czxj1"
-github-user-search-app/
-├── public/
-│   ├── dark-mode.png
-│   ├── light-mode.png
-│
-├── src/
-│   ├── components/
-│   │   ├── DevFinder.jsx
-│   │   ├── Header.jsx
-│   │   ├── SearchBar.jsx
-│   │   ├── UserCard.jsx
-│   │   └── DevFinderProvider.jsx
-│   │
-│   ├── assets/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── index.html
-└── package.json
-```
-
----
-
-## ⚙️ Installation & Setup
-
-```bash id="l4x3gm"
+```bash
 git clone https://github.com/MsadafK/github-user-search-app.git
 cd github-user-search-app
 npm install
 npm run dev
 ```
 
----
+## Available Scripts
 
-## 📈 What I Learned
+```bash
+npm run dev
+npm run lint
+npm run build
+npm run preview
+```
 
-* Working with **REST APIs (async/await, fetch)**
-* Managing **state in React**
-* Implementing **theme toggle (dark/light)**
-* Structuring reusable components
-* Handling edge cases like **invalid usernames**
+## What This Project Demonstrates
 
----
+- Real API integration with async state management
+- Component-driven React architecture
+- Responsive UI design with practical product states
+- Local storage for user preferences and search history
+- Accessible form controls, external links, and loading feedback
 
-## 🔮 Future Improvements
+## Author
 
-* Add loading skeleton UI
-* Add search history
-* Improve animations
-* Add keyboard accessibility
-
----
-
-## 👨‍💻 Author
-
-**Mohd Sadaf**
+Mohd Sadaf  
 Frontend Developer
 
-* [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/MsadafK)
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-sadaf/)
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub — it helps a lot!
-
----
-
-## 📬 Feedback
-
-If you have suggestions or improvements, feel free to open an issue or connect!
+- GitHub: https://github.com/MsadafK
+- LinkedIn: https://www.linkedin.com/in/mohd-sadaf/

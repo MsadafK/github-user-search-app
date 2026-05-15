@@ -7,14 +7,20 @@ import { DevFinderContext } from "./components/DevFinderProvider";
 const App = () => {
   const { theme } = useContext(DevFinderContext);
 
-  const bgColor = theme === "light" ? "bg-very-light-gray" : "bg-dark-navy";
+  const bgColor =
+    theme === "light"
+      ? "bg-[#f4f1ea]"
+      : "bg-[#111111]";
 
   return (
-    <div className={`${bgColor} min-h-screen  flex items-center justify-center`}>
-      <DevFinder>
-        <Header />
-        <Main />
-      </DevFinder>
+    <div className={`${bgColor} relative min-h-screen overflow-hidden text-charcoal transition-colors`}>
+      <div className="paper-texture pointer-events-none fixed inset-0 z-0 opacity-70 dark:opacity-20" />
+      <div className="relative z-10">
+        <DevFinder>
+          <Header />
+          <Main />
+        </DevFinder>
+      </div>
     </div>
   );
 };
